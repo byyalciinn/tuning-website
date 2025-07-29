@@ -89,9 +89,9 @@ export default function TestimonialsPage() {
   ]
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col grey-gradient-bg">
       {/* Hero Section */}
-      <section className="py-20 md:py-32">
+      <section className="py-20 md:py-32 relative z-20">
         <div className="container px-4 md:px-6">
           <div className="text-center space-y-4">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
@@ -105,7 +105,7 @@ export default function TestimonialsPage() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-20 bg-muted/50">
+      <section className="py-20 bg-muted/50 relative z-20">
         <div className="container px-4 md:px-6">
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4 text-center">
             <div>
@@ -134,7 +134,7 @@ export default function TestimonialsPage() {
       </section>
 
       {/* Testimonials Grid */}
-      <section className="py-20">
+      <section className="py-20 relative z-20">
         <div className="container px-4 md:px-6">
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {testimonials.map((testimonial) => (
@@ -180,7 +180,7 @@ export default function TestimonialsPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-muted/50">
+      <section className="py-20 bg-muted/50 relative z-20">
         <div className="container px-4 md:px-6">
           <div className="text-center space-y-4">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -202,7 +202,7 @@ export default function TestimonialsPage() {
       </section>
 
       {/* Popular Services Based on Reviews */}
-      <section className="py-20">
+      <section className="py-20 relative z-20">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">

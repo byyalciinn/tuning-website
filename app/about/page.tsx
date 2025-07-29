@@ -5,9 +5,9 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 export default function AboutPage() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col grey-gradient-bg">
       {/* Hero Section */}
-      <section className="py-20 md:py-32">
+      <section className="py-20 md:py-32 relative z-20">
         <div className="container px-4 md:px-6">
           <div className="text-center space-y-4">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
@@ -22,7 +22,7 @@ export default function AboutPage() {
       </section>
 
       {/* Mission & Vision */}
-      <section className="py-20 bg-muted/50">
+      <section className="py-20 bg-muted/50 relative z-20">
         <div className="container px-4 md:px-6">
           <div className="grid gap-8 md:grid-cols-2">
             <div className="space-y-4">
@@ -46,7 +46,7 @@ export default function AboutPage() {
       </section>
 
       {/* Stats */}
-      <section className="py-20">
+      <section className="py-20 relative z-20">
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             <Card className="text-center">
@@ -90,7 +90,7 @@ export default function AboutPage() {
       </section>
 
       {/* Team */}
-      <section className="py-20 bg-muted/50">
+      <section className="py-20 bg-muted/50 relative z-20">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -157,7 +157,7 @@ export default function AboutPage() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-20">
+      <section className="py-20 relative z-20">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
