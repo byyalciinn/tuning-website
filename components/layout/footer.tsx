@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="space-y-4">
             <Link href="/" className="flex items-center space-x-2">
               <Car className="h-6 w-6" />
-              <span className="font-bold text-xl">TuningPro</span>
+              <span className="font-bold text-xl">Prodac</span>
             </Link>
             <p className="text-sm text-muted-foreground max-w-xs">
               Professional automotive tuning services to enhance your vehicle's performance. 
@@ -68,7 +68,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-2 text-muted-foreground">
                 <Mail className="h-4 w-4" />
-                <span>info@tuningpro.com</span>
+                <span>info@prodac.com</span>
               </li>
               <li className="flex items-center space-x-2 text-muted-foreground">
                 <MapPin className="h-4 w-4" />
@@ -105,7 +105,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="mt-8 pt-8 border-t text-center text-sm text-muted-foreground">
-          <p>&copy; 2024 TuningPro. All rights reserved.</p>
+          <p>&copy; 2024 Prodac. All rights reserved.</p>
         </div>
       </div>
     </footer>

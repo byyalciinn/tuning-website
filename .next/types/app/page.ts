@@ -1,4 +1,4 @@
-// File: C:\Users\gizem\GitHub\tuning-website\app\page.tsx
+// File: C:\Users\zelfi\Desktop\tuning-website\tuning-website-1\app\page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

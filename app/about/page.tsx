@@ -14,7 +14,7 @@ export default function AboutPage() {
               About Us
             </h1>
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-              Since 2010, TuningPro has been a pioneer in the automotive tuning field, 
+              Since 2010, Prodac has been a pioneer in the automotive tuning field, 
               making a difference in the industry with our quality service and customer satisfaction-focused approach.
             </p>
           </div>
@@ -161,7 +161,7 @@ export default function AboutPage() {
         <div className="container px-4 md:px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              Why Choose TuningPro?
+              Why Choose Prodac?
             </h2>
           </div>
           <div className="grid gap-8 md:grid-cols-2">
