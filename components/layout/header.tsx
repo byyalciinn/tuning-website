@@ -5,6 +5,7 @@ import Link from "next/link"
 import { Car, Menu, X } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
+import GradientButton from "@/components/ui/button-1"
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -87,9 +88,14 @@ const Header = () => {
         {/* Desktop CTA Button */}
         <div className="flex flex-1 items-center justify-end space-x-2">
           <div className="hidden md:flex">
-            <Button>
+            <GradientButton
+              onClick={() => console.log('Contact Us clicked')}
+              width="140px"
+              height="40px"
+              className="text-sm font-medium"
+            >
               Contact Us
-            </Button>
+            </GradientButton>
           </div>
           
           {/* Mobile Menu Button */}
@@ -154,9 +160,14 @@ const Header = () => {
               FAQ
             </Link>
             <div className="mt-2 pt-2 border-t">
-              <Button className="w-full">
+              <GradientButton
+                onClick={() => console.log('Contact Us clicked')}
+                width="100%"
+                height="40px"
+                className="text-sm font-medium"
+              >
                 Contact Us
-              </Button>
+              </GradientButton>
             </div>
           </div>
         </div>

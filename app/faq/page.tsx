@@ -89,9 +89,9 @@ export default function FaqPage() {
   const categories = Array.from(new Set(faqData.map(item => item.category)))
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col grey-gradient-bg">
       {/* Hero Section */}
-      <section className="py-20 md:py-32">
+      <section className="py-20 md:py-32 relative z-20">
         <div className="container px-4 md:px-6">
           <div className="text-center space-y-4">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
@@ -105,7 +105,7 @@ export default function FaqPage() {
       </section>
 
       {/* FAQ Categories */}
-      <section className="py-20 bg-muted/50">
+      <section className="py-20 bg-muted/50 relative z-20">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
@@ -129,7 +129,7 @@ export default function FaqPage() {
       </section>
 
       {/* FAQ Items */}
-      <section className="py-20">
+      <section className="py-20 relative z-20">
         <div className="container px-4 md:px-6">
           <div className="max-w-3xl mx-auto space-y-4">
             {faqData.map((item) => (
@@ -176,7 +176,7 @@ export default function FaqPage() {
       </section>
 
       {/* Contact CTA */}
-      <section className="py-20 bg-muted/50">
+      <section className="py-20 bg-muted/50 relative z-20">
         <div className="container px-4 md:px-6">
           <div className="text-center space-y-4">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -199,7 +199,7 @@ export default function FaqPage() {
       </section>
 
       {/* Popular Topics */}
-      <section className="py-20">
+      <section className="py-20 relative z-20">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
@@ -245,7 +245,7 @@ export default function FaqPage() {
       </section>
 
       {/* Help Center */}
-      <section className="py-20 bg-muted/50">
+      <section className="py-20 bg-muted/50 relative z-20">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">

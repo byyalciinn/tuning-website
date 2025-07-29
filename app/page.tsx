@@ -8,9 +8,9 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const HomePage = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col grey-gradient-bg">
       {/* Hero Section */}
-      <section className="relative py-20 md:py-32 bg-background">
+      <section className="relative py-20 md:py-32 bg-background/80 backdrop-blur-sm z-20">
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
             <div className="flex flex-col justify-center space-y-4">
@@ -50,7 +50,7 @@ const HomePage = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-20 bg-muted/50">
+      <section className="py-20 bg-muted/50 relative z-20">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -102,7 +102,7 @@ const HomePage = () => {
       </section>
 
       {/* Services Preview */}
-      <section className="py-20">
+      <section className="py-20 relative z-20">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -186,7 +186,7 @@ const HomePage = () => {
       </section>
 
       {/* Testimonials Preview */}
-      <section className="py-20 bg-muted/50">
+      <section className="py-20 bg-muted/50 relative z-20">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -275,7 +275,7 @@ const HomePage = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20">
+      <section className="py-20 relative z-20">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2">
